@@ -1,9 +1,9 @@
 #include <stdio.h>
 /**
-  *main: entry point of the C program
+  *main - entry point of the C program
   *Description: prints the size of various types on the computer it is
   *compiled and run on
-  *return: 0 upon success
+  *Return: 0 upon success
   */
 int main(void)
 {
