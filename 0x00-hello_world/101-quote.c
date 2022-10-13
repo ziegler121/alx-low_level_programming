@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <unistd.h>
 /**
   *main - entry point to entire program
   *Description: prints a string without using
