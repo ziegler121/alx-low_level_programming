@@ -2,7 +2,7 @@
 /**
   *main - entry point into the code
   *
-  *Descsription: prints the alphabet in lowercase,and then 
+  *Descsription: prints the alphabet in lowercase,and then
   *in uppercase, follwed by a new line
   *
   *Return: 0 upon success
