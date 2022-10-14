@@ -7,7 +7,7 @@
   *
   *Return: 0 upon success
   */
-int main (void)
+int main(void)
 {
 	char nums[] = "0123456789";
 	char letters[] = "abcdef";
