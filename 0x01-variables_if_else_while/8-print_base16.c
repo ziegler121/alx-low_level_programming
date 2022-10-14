@@ -20,8 +20,8 @@ int main (void)
 
 	for (i = 0; i < 6; i++)
 	{
-		putchar(nums[i]);
+		putchar(letters[i]);
 	}
-	putchar(nums[i]);
+	putchar('\n');
 	return (0);
 }
