@@ -9,15 +9,13 @@
   *
   *Return: 0 upon success
   */
-
-
 int main(void)
 {
 	int n, lastnum;
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-	lastnum = n%10;
+	lastnum = n % 10;
 
 	if (lastnum > 5)
 	{
