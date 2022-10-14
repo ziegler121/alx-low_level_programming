@@ -14,7 +14,7 @@ int main(void)
 
 	for (i = 0; i < 26; i++)
 	{
-		if (alpha[i] == 'q' || alpha == 'e')
+		if (alpha[i] == 'q' || alpha[i] == 'e')
 		{
 			continue;
 		}
