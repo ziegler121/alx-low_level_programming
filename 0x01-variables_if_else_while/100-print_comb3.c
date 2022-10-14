@@ -2,10 +2,10 @@
 /**
   *main - entry point into entire code
   *
-  *Description: Prints all possible different combinations
+  *Description: prints all possible different combinations
   *of two digits
   *
-  *Returns: 0 upon success
+  *Return: 0 upon success
   */
 int main(void)
 {
@@ -30,7 +30,7 @@ int main(void)
 				putchar(',');
 				putchar(' ');
 			}
-			b ++;
+			b++;
 		}
 		a++;
 	}
