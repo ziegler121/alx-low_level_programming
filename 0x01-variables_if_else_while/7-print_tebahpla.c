@@ -5,6 +5,7 @@
   *Desctiption: prints the lowercase alphabet in reverse
   *followed by a new line
   *
+  *Return: 0 upon success
   */
 int main(void)
 {
