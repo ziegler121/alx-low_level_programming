@@ -1,4 +1,4 @@
-#include "main.h"
+i#include "main.h"
 
 /**
  *print_sign - entry point
@@ -8,7 +8,7 @@
  *@n: number to check
  *
  *Return: 1 if number is greater than 0,
- *0 if number is zero and 
+ *0 if number is zero and
  *-1 if number is less than zero
  */
 
@@ -26,6 +26,7 @@ int print_sign(int n)
 	}
 	else
 	{
+		_putchar('-');
 		return (-1);
 	}
 
