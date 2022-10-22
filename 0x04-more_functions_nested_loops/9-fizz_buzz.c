@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include "main.h"
 
 /**
  *main - entry point into entire program
@@ -28,9 +29,13 @@ int main(void)
 		{
 			printf("Buzz ");
 		}
-		else
+		else if (i == 1)
 		{
 			printf("%d ", i);
+		}
+		else
+		{
+			printf(" %d", i);
 		}
 	}
 	printf("\n");
