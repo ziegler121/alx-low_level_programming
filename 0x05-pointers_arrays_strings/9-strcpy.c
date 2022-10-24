@@ -5,6 +5,7 @@
  *terminating null bytel to the buffer pointed to by desk
  *@dest: pointer to destination
  *@src: source string to copy
+ *Return: the pointer to dest
  */
 
 char *_strcpy(char *dest, char *src)
@@ -20,10 +21,11 @@ char *_strcpy(char *dest, char *src)
 	}
 
 	for (j = 0; j < len; j++)
-	{	
+	{
 		dest[j] = src[j];
 	}
 	dest[j] =  '\0';
+	i
 
 	return (dest);
 
